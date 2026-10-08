@@ -1,31 +1,31 @@
 class GitPrevBranch < Formula
   desc "Determine the previous git branch you switched from"
   homepage "https://github.com/matbur/git-prev-branch"
-  version "1.0.9"
+  version "1.0.10"
   license "MIT"
   head "https://github.com/matbur/git-prev-branch.git", branch: "main"
 
   on_macos do
     on_intel do
-      url "https://github.com/matbur/git-prev-branch/releases/download/v1.0.9/git-prev-branch-darwin-amd64.tar.gz"
-      sha256 "04839efe6e9e36e04ff219076f49bbd51bca5ea6f0f01b5fe215bb417fa87e6a"
+      url "https://github.com/matbur/git-prev-branch/releases/download/v1.0.10/git-prev-branch-darwin-amd64.tar.gz"
+      sha256 "13703095c5938c5af54963a32fe481794ba12af66d84ee6ef5810dd2f6a5192c"
     end
 
     on_arm do
-      url "https://github.com/matbur/git-prev-branch/releases/download/v1.0.9/git-prev-branch-darwin-arm64.tar.gz"
-      sha256 "29034fce3d662e3ceb43ceeb8b2998000c0c2158c2f10d6be41f7a0ac3d4af49"
+      url "https://github.com/matbur/git-prev-branch/releases/download/v1.0.10/git-prev-branch-darwin-arm64.tar.gz"
+      sha256 "23c229c889940a42aee1bc4254d8f4ee81ddb14df105affde387f279bee3f19e"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/matbur/git-prev-branch/releases/download/v1.0.9/git-prev-branch-linux-amd64.tar.gz"
-      sha256 "de42c5964b9dec7f19f360fce1b64c2036fd188475bd6428b7c72043f60210ef"
+      url "https://github.com/matbur/git-prev-branch/releases/download/v1.0.10/git-prev-branch-linux-amd64.tar.gz"
+      sha256 "97b88229f1c0be81dab059f8e15ec25ee09e543a359a5f367d453f52b3158512"
     end
 
     on_arm do
-      url "https://github.com/matbur/git-prev-branch/releases/download/v1.0.9/git-prev-branch-linux-arm64.tar.gz"
-      sha256 "093ca42b51f0aec58c57229383a71e56ad55debbe53cbb24252de89407dada0c"
+      url "https://github.com/matbur/git-prev-branch/releases/download/v1.0.10/git-prev-branch-linux-arm64.tar.gz"
+      sha256 "da275c14843468b1b7939cc0c8a20edb5aefad2cb774282e8aaebd54a6deae98"
     end
   end
 
